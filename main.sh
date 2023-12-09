@@ -12,13 +12,13 @@ ls > ls.txt
 
 cp your_text_file.txt copy.txt
 
-alias printdate='date'
+alias today_date="date '+%y-%m-%d'"
 
 printdate > date.txt
 
 wc -w your_text_file.txt > text_count.txt
 
-ps | head -n 5 > process.txt
+ps aux | head -n 5 > process.txt
 
 ifconfig | head -n 5 > netstat.txt
 
